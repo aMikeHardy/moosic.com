@@ -1,0 +1,63 @@
+.cover {
+  background-image: url(../img/zed-cover.jpg);
+  background-size: cover;
+  height: 700px;
+}
+
+/* Alignment */
+.center{
+  text-align: center;
+}
+
+.white {
+  color: #ffffff;
+}
+
+.sm-text {
+  font-size: small;
+}
+
+.hr-white {
+  border-color: #ffffff;
+}
+
+.bg-black {
+  background-color: #000000;
+  padding: 20px;
+}
+
+.btn-gray {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.error {
+  background-color:#bf4343;
+  border: 3px;
+}
+
+li {
+  list-style-type: none;
+  list-style: none;
+  padding: 5px;
+  border-bottom: solid 1px;
+}
+
+
+/*---------Media Queries-----------*/
+@media only screen and (max-width: 782px) {
+.cover{
+  background-image: url(../img/zed-cover-m.jpg);
+  background-size: cover;
+}
+
+#album {
+  max-width: 100%;
+}
+
+.social-img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+} /* end media queries */
